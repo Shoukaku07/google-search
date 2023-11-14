@@ -10,7 +10,7 @@ class GoogleOSINTScraper:
         self.num_pages = num_pages
         self.base_url = 'https://www.google.com/search?q='
         self.headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+            'User-Agent': '<YOUR USERAGENT>'
         }
         self.results = []
 
